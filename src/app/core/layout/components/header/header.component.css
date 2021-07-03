@@ -1,0 +1,23 @@
+#header {
+    height: 150px;
+    display: flex;
+    border-bottom: 5px solid rgb(19,141,153);
+}
+
+.left-content {
+    display: flex;
+    justify-content: flex-start;
+    flex-grow: 1;
+}
+
+.center-content {
+    display: flex;
+    justify-content: center;
+    flex-grow: 1;
+}
+
+.right-content {
+    display: flex;
+    justify-content: flex-end;
+    flex-grow: 1;
+}
