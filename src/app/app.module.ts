@@ -5,17 +5,21 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './core/layout/components/header/header.component';
 import { LayoutComponent } from './core/layout/layout.component';
-
+import { FooterComponent } from './core/layout/components/footer/footer.component';
+import { LayoutRoutingModule } from './core/layout/layout-routing.module';
+import { LayoutModule } from './core/layout/layout.module';
 
 
 @NgModule({
   declarations: [
     AppComponent,
+    LayoutComponent,
     HeaderComponent,
-    LayoutComponent
+    FooterComponent
   ],
   imports: [
     BrowserModule,
+    LayoutModule,
     AppRoutingModule
   ],
   providers: [],

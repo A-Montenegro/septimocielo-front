@@ -1,22 +1,27 @@
 #header {
+    width: 100%;
+    min-width: 700px;
     height: 150px;
     display: flex;
     border-bottom: 5px solid rgb(19,141,153);
 }
 
 .left-content {
+    width:33%;
     display: flex;
     justify-content: flex-start;
     flex-grow: 1;
 }
 
 .center-content {
+    width:34%;
     display: flex;
     justify-content: center;
     flex-grow: 1;
 }
 
 .right-content {
+    width:33%;
     display: flex;
     justify-content: flex-end;
     flex-grow: 1;
