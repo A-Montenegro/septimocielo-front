@@ -8,6 +8,7 @@ import { LayoutComponent } from './core/layout/layout.component';
 import { FooterComponent } from './core/layout/components/footer/footer.component';
 import { LayoutRoutingModule } from './core/layout/layout-routing.module';
 import { LayoutModule } from './core/layout/layout.module';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { LayoutModule } from './core/layout/layout.module';
   imports: [
     BrowserModule,
     LayoutModule,
-    AppRoutingModule
+    AppRoutingModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
