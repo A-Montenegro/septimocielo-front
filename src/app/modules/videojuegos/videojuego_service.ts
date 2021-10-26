@@ -21,6 +21,9 @@ export class VideojuegoService {
 
   /** GET heroes from the server */
   findAllWhere(): Observable<Videojuego[]> {
+
+
+    
     return this.http.get<Videojuego[]>(this.videojuegosUrl)
       .pipe(
         tap(_ => this.log('fetched heroes')),

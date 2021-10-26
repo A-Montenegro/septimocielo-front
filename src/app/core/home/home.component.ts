@@ -17,16 +17,13 @@ export class HomeComponent implements OnInit {
   
 
   ngOnInit(): void {
-    console.log("hola");
     this.findAllWhere();
   }
 
   
   findAllWhere(): void {
-    console.log("hola");
     this.videojuegoService.findAllWhere()
     .subscribe(videojuegoList => this.videojuegoList = videojuegoList);
-    console.log("hola");
   }
 
 }
